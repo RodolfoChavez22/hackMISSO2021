@@ -1,5 +1,17 @@
-# hackMISSO2021
+# hackMISSO Fall 2021
 
-Install dependencies
+Full Stack MERN Project
 
-npm install
+Install dependencies,
+`npm install`
+
+Run client, 
+`npm start`
+
+In server folder,
+
+Install dependencies, 
+`npm install`
+
+Run server, 
+`npm start`
