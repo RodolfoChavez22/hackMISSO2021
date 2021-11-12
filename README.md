@@ -7,11 +7,3 @@ Install dependencies,
 
 Run client, 
 `npm start`
-
-In server folder,
-
-Install dependencies, 
-`npm install`
-
-Run server, 
-`npm start`
