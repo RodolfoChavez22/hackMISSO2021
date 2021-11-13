@@ -5,7 +5,7 @@ const router = express.Router();
 
 router.get('/', async (req, res) => {
     try{
-        const posts = await Post.find().limit(50);
+        const posts = await Post.find({STATE: "TX"}).limit(100);
         res.status(200).send(posts);
     } catch (error) {
         res.status(404).json({
