@@ -1,24 +1,24 @@
-import React from "react";
-import { CircularProgress, Container } from '@material-ui/core';
+import React, { forwardRef } from "react";
+import { CircularProgress, Container, Tooltip } from '@material-ui/core';
 import { useSelector } from "react-redux";
 import MaterialTable from 'material-table';
-import { Tooltip } from '@material-ui/core';
-import { forwardRef } from 'react';
-import AddBox from '@material-ui/icons/AddBox';
-import ArrowUpward from '@material-ui/icons/ArrowUpward';
-import Check from '@material-ui/icons/Check';
-import ChevronLeft from '@material-ui/icons/ChevronLeft';
-import ChevronRight from '@material-ui/icons/ChevronRight';
-import Clear from '@material-ui/icons/Clear';
-import DeleteOutline from '@material-ui/icons/DeleteOutline';
-import Edit from '@material-ui/icons/Edit';
-import FilterList from '@material-ui/icons/FilterList';
-import FirstPage from '@material-ui/icons/FirstPage';
-import LastPage from '@material-ui/icons/LastPage';
-import Remove from '@material-ui/icons/Remove';
-import SaveAlt from '@material-ui/icons/SaveAlt';
-import Search from '@material-ui/icons/Search';
-import ViewColumn from '@material-ui/icons/ViewColumn';
+import { 
+    AddBox, 
+    ArrowUpward , 
+    Check, 
+    ChevronLeft ,
+    ChevronRight , 
+    Clear, 
+    DeleteOutline, 
+    Edit, 
+    FilterList, 
+    FirstPage , 
+    LastPage, 
+    Remove, 
+    SaveAlt, 
+    Search, 
+    ViewColumn 
+} from '@material-ui/icons';
 
 const tableIcons = {
   Add: forwardRef((props, ref:React.Ref<SVGSVGElement>) => <AddBox {...props} ref={ref} />),
@@ -55,22 +55,22 @@ const columns = [
     { title: 'Other cases', field: 'COTHER_J'},
     { title: 'Days away', field: 'DTRANSFER_K' },
     { title: 'Days away transfer', field: 'DAWAY_L' },
-    { title: 'injuries', field: 'INJ_M1' },
-    { title: 'skin disorders', field: 'SKIN_M2' },
-    { title: 'respiratory conditions', field: 'RESP_M3' },
-    { title: 'poisonings', field: 'POIS_M4' },
-    { title: 'other illnesses', field: 'OTHER_M5' },
-    { title: 'hearing loss', field: 'HEARING_M' },
+    { title: 'Injuries', field: 'INJ_M1' },
+    { title: 'Skin disorders', field: 'SKIN_M2' },
+    { title: 'Respiratory conditions', field: 'RESP_M3' },
+    { title: 'Poisonings', field: 'POIS_M4' },
+    { title: 'Other illnesses', field: 'OTHER_M5' },
+    { title: 'Hearing loss', field: 'HEARING_M' },
     { title: 'SIC', field: 'SIC' },
     { title: 'NAICS', field: 'NAICS' },
-    { title: 'Phone number', field: 'PHONE' },
+    { title: 'Phone #', field: 'PHONE' },
     { title: 'No unusual buisness', field: 'UNUSUAL_Q3' },
-    { title: 'Striks/ lockout', field: 'STRIKE_Q3' },
-    { title: 'shutout/ layoff', field: 'SHUT_Q3' },
+    { title: 'Striks / Lockout', field: 'STRIKE_Q3' },
+    { title: 'Shutout / Layoff', field: 'SHUT_Q3' },
     { title: 'Seasonal work', field: 'SEASONAL_Q3' },
     { title: 'Severe weather', field: 'DISASTER_Q3' },
-    { title: 'shorter work', field: 'SHORT_Q3' },
-    { title: 'longer work', field: 'LONG_Q3' },
+    { title: 'Shorter work', field: 'SHORT_Q3' },
+    { title: 'Songer work', field: 'LONG_Q3' },
     { title: 'Other reasons', field: 'OREASON_Q3' },
     { title: 'Other descriptions', field: 'OREASON_DESC' }
 ];
