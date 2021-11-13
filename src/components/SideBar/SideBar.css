@@ -1,0 +1,46 @@
+.sidebar{
+    flex: 1;
+    height: calc(100vh - 45px);
+    background-color:darkgrey;
+    position: sticky;
+    top: 50px;
+}
+
+.sidebarWrapper{
+    padding: 20px;
+    color: black;
+}
+
+.sidebarMenu{
+    margin-bottom: 10px;
+}
+
+.sidebarTitle{
+    font-size: 20px;
+    color:black;
+    background-color: rgb(172, 194, 209);
+}
+
+.sidebarList{
+    list-style: none;
+    padding: 5px;
+}
+
+.sidebarListItem{
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-bottom: 2px;
+    border-radius: 10px;
+}
+
+.sidebarListItem.active, 
+.sidebarListItem:hover{
+    background-color: rgb(142, 192, 221);
+}
+
+.sidebarIcon{
+    margin-right: 5px;
+    font-size: 25px !important;
+}

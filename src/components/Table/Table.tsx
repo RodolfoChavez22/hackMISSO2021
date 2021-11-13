@@ -1,5 +1,5 @@
 import React from "react";
-import { CircularProgress } from '@material-ui/core';
+import { CircularProgress, Container } from '@material-ui/core';
 import { useSelector } from "react-redux";
 import MaterialTable from 'material-table';
 
@@ -43,7 +43,9 @@ const DataTable = () => {
 
     return(
         !posts.length ? <CircularProgress /> : (
-            <MaterialTable columns={columns} data={posts}/>    
+            <Container>
+                <MaterialTable columns={columns} data={posts}/>    
+            </Container>
         )
     );
 };
