@@ -14,7 +14,7 @@ export default function User() {
         <div className="user">
             <div className="userTitleContainer">
                 <h1 className="userTitle">Edit User</h1>
-                <Link to="/newUser">
+                <Link to="/new-user">
                     <button className="userAddButton">Create</button>
                 </Link>
             </div>
@@ -22,20 +22,20 @@ export default function User() {
                 <div className="userShow">
                     <div className="userShowTop">
                         <img
-                            src="https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                            src="https://i.pinimg.com/564x/c8/55/ae/c855aea64c62ef90a746df8d1670b017.jpg"
                             alt=""
                             className="userShowImg"
                         />
                         <div className="userShowTopTitle">
-                            <span className="userShowUsername">Anna Becker</span>
-                            <span className="userShowUserTitle">Software Engineer</span>
+                            <span className="userShowUsername">Shiba Inu</span>
+                            <span className="userShowUserTitle">Meme Coin</span>
                         </div>
                     </div>
                     <div className="userShowBottom">
                         <span className="userShowTitle">Account Details</span>
                         <div className="userShowInfo">
                             <PermIdentity className="userShowIcon" />
-                            <span className="userShowInfoTitle">annabeck99</span>
+                            <span className="userShowInfoTitle">ShibaInu99</span>
                         </div>
                         <div className="userShowInfo">
                             <CalendarToday className="userShowIcon" />
@@ -48,7 +48,7 @@ export default function User() {
                         </div>
                         <div className="userShowInfo">
                             <MailOutline className="userShowIcon" />
-                            <span className="userShowInfoTitle">annabeck99@gmail.com</span>
+                            <span className="userShowInfoTitle">shibainu@gmail.com</span>
                         </div>
                         <div className="userShowInfo">
                             <LocationSearching className="userShowIcon" />
@@ -64,7 +64,7 @@ export default function User() {
                                 <label>Username</label>
                                 <input
                                     type="text"
-                                    placeholder="annabeck99"
+                                    placeholder="ShibaInu99"
                                     className="userUpdateInput"
                                 />
                             </div>
@@ -72,7 +72,7 @@ export default function User() {
                                 <label>Full Name</label>
                                 <input
                                     type="text"
-                                    placeholder="Anna Becker"
+                                    placeholder="Shiba Inu"
                                     className="userUpdateInput"
                                 />
                             </div>
@@ -80,7 +80,7 @@ export default function User() {
                                 <label>Email</label>
                                 <input
                                     type="text"
-                                    placeholder="annabeck99@gmail.com"
+                                    placeholder="shibainu@gmail.com"
                                     className="userUpdateInput"
                                 />
                             </div>
@@ -105,7 +105,7 @@ export default function User() {
                             <div className="userUpdateUpload">
                                 <img
                                     className="userUpdateImg"
-                                    src="https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                                    src="https://i.pinimg.com/564x/c8/55/ae/c855aea64c62ef90a746df8d1670b017.jpg"
                                     alt=""
                                 />
                                 <label htmlFor="file">

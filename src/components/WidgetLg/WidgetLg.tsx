@@ -6,25 +6,25 @@ export default function WidgetLg() {
     };
     return (
         <div className="widgetLg">
-            <h3 className="widgetLgTitle">Latest transactions</h3>
+            <h3 className="widgetLgTitle">Latest Data Uploads</h3>
             <table className="widgetLgTable">
                 <tr className="widgetLgTr">
-                    <th className="widgetLgTh">Customer</th>
+                    <th className="widgetLgTh">Account</th>
                     <th className="widgetLgTh">Date</th>
-                    <th className="widgetLgTh">Amount</th>
+                    <th className="widgetLgTh">Incident</th>
                     <th className="widgetLgTh">Status</th>
                 </tr>
                 <tr className="widgetLgTr">
                     <td className="widgetLgUser">
                         <img
-                            src="https://images.pexels.com/photos/4172933/pexels-photo-4172933.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                            src="https://imgs2.goodsmileus.com/image/cache/data/productimages/Nendoroids/JosephJoestar/03-1200x1200.jpg"
                             alt=""
                             className="widgetLgImg"
                         />
-                        <span className="widgetLgName">Susan Carol</span>
+                        <span className="widgetLgName">Frank Bui</span>
                     </td>
-                    <td className="widgetLgDate">2 Jun 2021</td>
-                    <td className="widgetLgAmount">$122.00</td>
+                    <td className="widgetLgDate">10 Nov 2021</td>
+                    <td className="widgetLgAmount">Death</td>
                     <td className="widgetLgStatus">
                         <Button type="Approved" />
                     </td>
@@ -32,14 +32,14 @@ export default function WidgetLg() {
                 <tr className="widgetLgTr">
                     <td className="widgetLgUser">
                         <img
-                            src="https://images.pexels.com/photos/4172933/pexels-photo-4172933.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                            src="https://cdn.alfabetajuega.com/wp-content/uploads/2020/11/itachi-uchiha-naruto-portada.jpg"
                             alt=""
                             className="widgetLgImg"
                         />
-                        <span className="widgetLgName">Susan Carol</span>
+                        <span className="widgetLgName">Rodolfo Chavez</span>
                     </td>
-                    <td className="widgetLgDate">2 Jun 2021</td>
-                    <td className="widgetLgAmount">$122.00</td>
+                    <td className="widgetLgDate">6 Nov 2021</td>
+                    <td className="widgetLgAmount">Bone Fracture</td>
                     <td className="widgetLgStatus">
                         <Button type="Declined" />
                     </td>
@@ -47,14 +47,14 @@ export default function WidgetLg() {
                 <tr className="widgetLgTr">
                     <td className="widgetLgUser">
                         <img
-                            src="https://images.pexels.com/photos/4172933/pexels-photo-4172933.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                            src="https://www.anime-planet.com/images/characters/1339.jpg?t=1587503008"
                             alt=""
                             className="widgetLgImg"
                         />
-                        <span className="widgetLgName">Susan Carol</span>
+                        <span className="widgetLgName">Bryant Le</span>
                     </td>
-                    <td className="widgetLgDate">2 Jun 2021</td>
-                    <td className="widgetLgAmount">$122.00</td>
+                    <td className="widgetLgDate">5 Nov 2021</td>
+                    <td className="widgetLgAmount">Bodily Injury</td>
                     <td className="widgetLgStatus">
                         <Button type="Pending" />
                     </td>
@@ -62,14 +62,14 @@ export default function WidgetLg() {
                 <tr className="widgetLgTr">
                     <td className="widgetLgUser">
                         <img
-                            src="https://images.pexels.com/photos/4172933/pexels-photo-4172933.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                            src="https://imgs2.goodsmileus.com/image/cache/data/productimages/Nendoroids/JosephJoestar/03-1200x1200.jpg"
                             alt=""
                             className="widgetLgImg"
                         />
-                        <span className="widgetLgName">Susan Carol</span>
+                        <span className="widgetLgName">Frank Bui</span>
                     </td>
-                    <td className="widgetLgDate">2 Jun 2021</td>
-                    <td className="widgetLgAmount">$122.00</td>
+                    <td className="widgetLgDate">2 Nov 2021</td>
+                    <td className="widgetLgAmount">Sick Leave</td>
                     <td className="widgetLgStatus">
                         <Button type="Approved" />
                     </td>

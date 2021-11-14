@@ -4,81 +4,81 @@ import { Visibility } from "@material-ui/icons";
 export default function WidgetSm() {
     return (
         <div className="widgetSm">
-            <span className="widgetSmTitle">New Join Members</span>
+            <span className="widgetSmTitle">Sign In Status</span>
             <ul className="widgetSmList">
                 <li className="widgetSmListItem">
                     <img
-                        src="https://images.pexels.com/photos/3992656/pexels-photo-3992656.png?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                        src="https://www.anime-planet.com/images/characters/1339.jpg?t=1587503008"
                         alt=""
                         className="widgetSmImg"
                     />
                     <div className="widgetSmUser">
-                        <span className="widgetSmUsername">Anna Keller</span>
+                        <span className="widgetSmUsername">Bryant Le</span>
                         <span className="widgetSmUserTitle">Software Engineer</span>
                     </div>
-                    <button className="widgetSmButton">
+                    <button className="widgetSmButton o">
                         <Visibility className="widgetSmIcon" />
-                        Display
+                        Online
                     </button>
                 </li>
                 <li className="widgetSmListItem">
                     <img
-                        src="https://images.pexels.com/photos/3992656/pexels-photo-3992656.png?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                        src="https://imgs2.goodsmileus.com/image/cache/data/productimages/Nendoroids/JosephJoestar/03-1200x1200.jpg"
                         alt=""
                         className="widgetSmImg"
                     />
                     <div className="widgetSmUser">
-                        <span className="widgetSmUsername">Anna Keller</span>
+                        <span className="widgetSmUsername">Frank Bui</span>
                         <span className="widgetSmUserTitle">Software Engineer</span>
                     </div>
-                    <button className="widgetSmButton">
+                    <button className="widgetSmButton i">
                         <Visibility className="widgetSmIcon" />
-                        Display
+                        Idle
                     </button>
                 </li>
                 <li className="widgetSmListItem">
                     <img
-                        src="https://images.pexels.com/photos/3992656/pexels-photo-3992656.png?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                        src="https://cdn.alfabetajuega.com/wp-content/uploads/2020/11/itachi-uchiha-naruto-portada.jpg"
                         alt=""
                         className="widgetSmImg"
                     />
                     <div className="widgetSmUser">
-                        <span className="widgetSmUsername">Anna Keller</span>
+                        <span className="widgetSmUsername">Rodolfo Chavez</span>
                         <span className="widgetSmUserTitle">Software Engineer</span>
                     </div>
-                    <button className="widgetSmButton">
+                    <button className="widgetSmButton o">
                         <Visibility className="widgetSmIcon" />
-                        Display
+                        Online
                     </button>
                 </li>
                 <li className="widgetSmListItem">
                     <img
-                        src="https://images.pexels.com/photos/3992656/pexels-photo-3992656.png?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                        src="https://i.insider.com/6183d20c23745d001824fa70?width=700"
                         alt=""
                         className="widgetSmImg"
                     />
                     <div className="widgetSmUser">
-                        <span className="widgetSmUsername">Anna Keller</span>
+                        <span className="widgetSmUsername">Elon Musk</span>
                         <span className="widgetSmUserTitle">Software Engineer</span>
                     </div>
-                    <button className="widgetSmButton">
+                    <button className="widgetSmButton f">
                         <Visibility className="widgetSmIcon" />
-                        Display
+                        Offline
                     </button>
                 </li>
                 <li className="widgetSmListItem">
                     <img
-                        src="https://images.pexels.com/photos/3992656/pexels-photo-3992656.png?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                        src="https://www.wired.com/wp-content/uploads/2019/01/Culture_GeeksGuide_Bezos.jpg"
                         alt=""
                         className="widgetSmImg"
                     />
                     <div className="widgetSmUser">
-                        <span className="widgetSmUsername">Anna Keller</span>
+                        <span className="widgetSmUsername">Jeff Bezos</span>
                         <span className="widgetSmUserTitle">Software Engineer</span>
                     </div>
-                    <button className="widgetSmButton">
+                    <button className="widgetSmButton f">
                         <Visibility className="widgetSmIcon" />
-                        Display
+                        Offline
                     </button>
                 </li>
             </ul>

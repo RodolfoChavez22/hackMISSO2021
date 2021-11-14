@@ -54,9 +54,18 @@
     border: none;
     border-radius: 10px;
     padding: 7px 10px;
-    background-color: #eeeef7;
-    color: #555;
+    color: black;
     cursor: pointer;
+}
+
+.widgetSmButton.o{
+    background-color: #48A14D;
+}
+.widgetSmButton.f{
+    background-color: #B33F40;
+}
+.widgetSmButton.i{
+    background-color: #EDD94C;
 }
 
 .widgetSmIcon{
