@@ -16,6 +16,7 @@ import { useDispatch } from 'react-redux';
 import { getPosts } from './actions/posts.js';
 
 import "./App.css"
+import DataUp from './pages/DataUpload/Dataup';
 
 
 const App = () => {
@@ -60,6 +61,9 @@ const App = () => {
             </Route>
             <Route path="/map">
               <Map />
+            </Route>
+            <Route path="/data-upload">
+              <DataUp/>
             </Route>
           </Switch>
         </div>

@@ -9,6 +9,7 @@ import {
 import { LineStyle } from "@material-ui/icons";
 import { Link } from "react-router-dom";
 import "./SideBar.css";
+import CloudUploadIcon from '@mui/icons-material/CloudUpload';
 
 export default function Sidebar() {
 
@@ -58,6 +59,12 @@ export default function Sidebar() {
                             <li className="sidebarListItem">
                                 <BarChart className="sidebarIcon" />
                                 <span className="sidebarWord">Bar</span>
+                            </li>
+                        </Link>
+                        <Link to="/Data-upload" className="link">
+                            <li className="sidebarListItem">
+                                <CloudUploadIcon className="sidebarIcon" />
+                                <span className="sidebarWord">Incident Report</span>
                             </li>
                         </Link>
 

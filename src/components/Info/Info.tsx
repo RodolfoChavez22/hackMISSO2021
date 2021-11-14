@@ -5,34 +5,34 @@ export default function Info() {
     return (
         <div className="featured">
             <div className="featuredItem">
-                <span className="featuredInfo">Data Spam</span>
+                <span className="featuredInfo">Incidents This Year</span>
                 <div className="dataContainer">
                     <span className="data">2900</span>
                     <span className="dataRate">
-                        .2 <ArrowDownwardIcon className="icon" />
+                        2%<ArrowDownwardIcon className="icon" />
                     </span>
                 </div>
-                <span className="featuredsub"> boogalo</span>
+                <span className="featuredsub"> Decrease by 2% this year</span>
             </div>
             <div className="featuredItem">
-                <span className="featuredInfo">Data ??</span>
+                <span className="featuredInfo">Deaths</span>
                 <div className="dataContainer">
-                    <span className="data">5000</span>
+                    <span className="data">45</span>
                     <span className="dataRate">
-                        5.6 <ArrowDownwardIcon className="icon" />
+                        10%<ArrowDownwardIcon className="icon" />
                     </span>
                 </div>
-                <span className="featuredsub">just Ideas boogalo</span>
+                <span className="featuredsub">Deaths decreased by 10% this year</span>
             </div>
             <div className="featuredItem">
-                <span className="featuredInfo">Dog water ??</span>
+                <span className="featuredInfo">Avg Number Of Work Hours</span>
                 <div className="dataContainer">
-                    <span className="data">69420</span>
+                    <span className="data">39</span>
                     <span className="dataRate">
-                        .69 <ArrowDownwardIcon className="icon" />
+                        1%<ArrowDownwardIcon className="icon" />
                     </span>
                 </div>
-                <span className="featuredsub">stonks</span>
+                <span className="featuredsub">Avg. Hours of work is down by 1% this year</span>
             </div>
         </div>
     );
