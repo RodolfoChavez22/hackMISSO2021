@@ -1,28 +1,14 @@
 import React from 'react'
 import "./TopBar.css"
 import { Notifications, Settings, Refresh } from '@mui/icons-material';
-
+import {useAuth0} from '@auth0/auth0-react'
+import LoginButton from './loginlogoutButton/LoginButton';
+import LogoutButton from './loginlogoutButton/LogoutButton';
 
 export default function Topbar() {
+    const Authenticated: any = useAuth0().isAuthenticated;
+    
     return (
-        <div className="topbar">
-            <div className="topbarWrapper">
-                <div className="topleft">
-                    <span className="logo">Data Visualization</span>
-                </div>
-                <div className="topright">
-                    <div className="topbarIconContainer">
-                        <Notifications />
-                    </div>
-                    <div className="topbarIconContainer">
-                        <Settings />
-                    </div>
-                    <div className="topbarIconContainer">
-                        <Refresh />
-                    </div>
-                    <img src="https://i.pinimg.com/564x/c8/55/ae/c855aea64c62ef90a746df8d1670b017.jpg" alt="" className="topAvatar" />
-                </div>
-            </div>
-        </div>
+        (Authenticated===false)?<LoginButton />:<LogoutButton />
     )
 }

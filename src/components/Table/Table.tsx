@@ -70,7 +70,7 @@ const columns = [
     { title: 'Seasonal work', field: 'SEASONAL_Q3' },
     { title: 'Severe weather', field: 'DISASTER_Q3' },
     { title: 'Shorter work', field: 'SHORT_Q3' },
-    { title: 'Songer work', field: 'LONG_Q3' },
+    { title: 'Longer work', field: 'LONG_Q3' },
     { title: 'Other reasons', field: 'OREASON_Q3' },
     { title: 'Other descriptions', field: 'OREASON_DESC' }
 ];
@@ -84,7 +84,7 @@ const DataTable = () => {
                     icons={tableIcons}
                     title="" columns={columns}
                     data={posts}
-                    options={ {searchAutoFocus:true, headerStyle:{backgroundColor: 'rgb(142, 192, 221)', fontWeight:"bold", fontSize:17 }, rowStyle:{backgroundColor: 'darkgrey'}, columnResizable:true, tableLayout:"auto"}}
+                    options={ {searchAutoFocus:true, headerStyle:{backgroundColor: '#b3a6c7', fontWeight:"bold", fontSize:17, fontFamily:'Fira Code' }, rowStyle:{backgroundColor: '#797979', fontFamily:'Fira Code'}, columnResizable:true, tableLayout:"auto",showTitle:false }}
                     
                 />    
             </Container>
