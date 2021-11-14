@@ -1,81 +1,69 @@
 import { 
-    HomeRounded, 
-    AssessmentRounded, 
-    StorageRounded,
-    ImportExportRounded,
-    TrackChanges, 
-    AddRounded
+    ScatterPlot,
+    AccountBox,
+    ShowChart,
+    TableChart,
+    Map,
+    BarChart
 } from '@mui/icons-material';
-
+import { LineStyle } from "@material-ui/icons";
+import { Link } from "react-router-dom";
 import "./SideBar.css";
 
 export default function Sidebar() {
+
     return (
         <div className="sidebar">
             <div className="sidebarWrapper">
                 <div className="sidebarMenu">
                     <h3 className="sidebarTitle"> Dashboard</h3>
                     <ul className="sidebarList active">
-                        <li className="sidebarListItem">
-                            <HomeRounded className="sidebarIcon" />
-                            Home
-                        </li>
-                        <li className="sidebarListItem">
-                            <AssessmentRounded className="sidebarIcon" />
-                            Analytics
-                        </li>
-                        <li className="sidebarListItem">
-                            <StorageRounded className="sidebarIcon" />
-                            Data
-                        </li>
-                        <h3 className="sidebarTitle"> Analyze Data </h3>
-                        <ul className="sidebarList active">
-                            <li className="sidebarListItem">
-                                <ImportExportRounded className="sidebarIcon" />
-                                Upload
+                        <Link to="/" className="link">
+                            <li className="sidebarListItem active">
+                                <LineStyle className="sidebarIcon" />
+                                <span className="sidebarWord">Home</span>
                             </li>
+                        </Link>
+                        <Link to="/users" className="link">
                             <li className="sidebarListItem">
-                                <TrackChanges className="sidebarIcon" />
-                                Changes
+                                <AccountBox className="sidebarIcon" />
+                                <span className="sidebarWord">Users</span>
                             </li>
+                        </Link>
+                        <Link to="/scatter-plot" className="link">
                             <li className="sidebarListItem">
-                                <AddRounded className="sidebarIcon" />
-                                Add
+                                <ScatterPlot className="sidebarIcon" />
+                                <span className="sidebarWord">Scatter Plot</span>
                             </li>
-                            <h3 className="sidebarTitle"> Analyze Data </h3>
-                            <ul className="sidebarList active">
-                                <li className="sidebarListItem">
-                                    <ImportExportRounded className="sidebarIcon" />
-                                    Make a Report
-                                </li>
-                                <li className="sidebarListItem">
-                                    <TrackChanges className="sidebarIcon" />
-                                    Changes
-                                </li>
-                                <li className="sidebarListItem">
-                                    <AddRounded className="sidebarIcon" />
-                                    Add
-                                </li>
-                                <h3 className="sidebarTitle"> Analyze Data </h3>
-                                <ul className="sidebarList active">
-                                    <li className="sidebarListItem">
-                                        <ImportExportRounded className="sidebarIcon" />
-                                        Exchange
-                                    </li>
-                                    <li className="sidebarListItem">
-                                        <TrackChanges className="sidebarIcon" />
-                                        Changes
-                                    </li>
-                                    <li className="sidebarListItem">
-                                        <AddRounded className="sidebarIcon" />
-                                        Add
-                                    </li>
-                                </ul>
-                            </ul>
-                        </ul>
+                        </Link>
+                        <Link to="/line-graph" className="link">
+                            <li className="sidebarListItem">
+                                <ShowChart className="sidebarIcon" />
+                                <span className="sidebarWord">Line Graph</span>
+                            </li>
+                        </Link>
+                        <Link to="/table" className="link">
+                            <li className="sidebarListItem">
+                                <TableChart className="sidebarIcon" />
+                                <span className="sidebarWord">Table</span>
+                            </li>
+                        </Link>
+                        <Link to="/map" className="link">
+                            <li className="sidebarListItem">
+                                <Map className="sidebarIcon" />
+                                <span className="sidebarWord">Map</span>
+                            </li>
+                        </Link>
+                        <Link to="/bar" className="link">
+                            <li className="sidebarListItem">
+                                <BarChart className="sidebarIcon" />
+                                <span className="sidebarWord">Bar</span>
+                            </li>
+                        </Link>
+
                     </ul>
                 </div>
             </div>
         </div>
-    )
+    );
 }

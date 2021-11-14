@@ -1,0 +1,39 @@
+.userList {
+  background-color: #797979;
+    flex: 4;
+    font-family: 'Fira Code', monospace;
+  }
+  
+  
+  .userListUser {
+    font-family: 'Fira Code', monospace;
+    display: flex;
+    align-items: center;
+  }
+  
+  .userListImg {
+    font-family: 'Fira Code', monospace;
+    color:white;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+  
+  .userListEdit{
+    font-family: 'Fira Code', monospace;
+      border: none;
+      border-radius: 10px;
+      padding: 5px 10px;
+      background-color: #3bb077;
+      color: white;
+      cursor: pointer;
+      margin-right: 20px;
+  }
+  
+  .userListDelete{
+    font-family: 'Fira Code', monospace;
+      color: red;
+      cursor: pointer;
+  }

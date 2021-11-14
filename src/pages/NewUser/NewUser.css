@@ -1,0 +1,68 @@
+.newUser {
+    flex: 4;
+    font-family: 'Fira Code', monospace;
+  }
+  
+.newUserForm {
+  font-family: 'Fira Code', monospace;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.newUserItem {
+  font-family: 'Fira Code', monospace;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+.newUserItem > label {
+  font-family: 'Fira Code', monospace;
+  margin-left: 5px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  color: black;
+}
+
+.newUserItem > input {
+  font-family: 'Fira Code', monospace;
+  height: 20px;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.newUserGender > input {
+  font-family: 'Fira Code', monospace;
+  color:black;
+  margin-top: 15px;
+}
+
+.newUserGender>label{
+  font-family: 'Fira Code', monospace;
+    margin: 10px;
+    font-size: 18px;
+    color:black;
+}
+
+.newUserSelect{
+  font-family: 'Fira Code', monospace;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.newUserButton{
+  font-family: 'Fira Code', monospace;
+    width: 200px;
+    border: none;
+    background-color: darkblue;
+    color: white;
+    padding: 7px 10px;
+    font-weight: 600;
+    border-radius: 10px;
+    margin-top: 30px;
+    cursor: pointer;
+}

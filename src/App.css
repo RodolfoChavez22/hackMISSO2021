@@ -1,7 +1,16 @@
 .container{
+    font-family: 'Fira Code', monospace;
     display:flex;
+    margin-top: 10px;;
 }
 
-.others{
-    flex:4;
+.link{
+    font-family: 'Fira Code', monospace;
+    text-decoration: none;
+    color: inherit;
+}
+
+.home{
+    font-family: 'Fira Code', monospace;
+    background-color: #515151;
 }

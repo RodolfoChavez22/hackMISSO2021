@@ -1,14 +1,14 @@
 .sidebar{
     flex: 1;
-    height: calc(100vh - 45px);
-    background-color:darkgrey;
+    height: calc(100vh - 50px);
+    background-color:#333333;
     position: sticky;
     top: 50px;
 }
 
 .sidebarWrapper{
     padding: 20px;
-    color: black;
+    color: #b3a6c7;
 }
 
 .sidebarMenu{
@@ -16,9 +16,10 @@
 }
 
 .sidebarTitle{
-    font-size: 20px;
-    color:black;
-    background-color: rgb(172, 194, 209);
+    border-radius: 4px;
+    font-size: 25px;
+    color: white;
+    font-family: 'Fira Code', monospace;
 }
 
 .sidebarList{
@@ -27,7 +28,7 @@
 }
 
 .sidebarListItem{
-    padding: 10px;
+    padding: 20px;
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -37,10 +38,18 @@
 
 .sidebarListItem.active, 
 .sidebarListItem:hover{
-    background-color: rgb(142, 192, 221);
+    background-color: #b3a6c7;
 }
 
 .sidebarIcon{
+    color: #FAF5EF;
     margin-right: 5px;
-    font-size: 25px !important;
+    font-size: 40px !important;
+}
+
+.sidebarWord{
+    font-family: 'Fira Code', monospace;
+    font-size: 20px;
+    font-weight: 999;
+    color: #FAF5EF;
 }
