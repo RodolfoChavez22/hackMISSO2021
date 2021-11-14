@@ -14,3 +14,9 @@
     font-family: 'Fira Code', monospace;
     background-color: #515151;
 }
+
+button {
+    margin: 5px 12px;
+    padding: 2px 5px;
+    cursor: pointer;
+}
