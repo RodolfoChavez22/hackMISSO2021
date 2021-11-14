@@ -1,6 +1,6 @@
 import Chart from "../../components/Chart/Chart";
 import Info from "../../components/Info/Info";
-import { userData } from "../../data/Data";
+import { userData } from "../../harddata/Data";
 import WidgetSm from "../../components/WidgetSm/WidgetSm";
 import WidgetLg from "../../components/WidgetLg/WidgetLg";
 

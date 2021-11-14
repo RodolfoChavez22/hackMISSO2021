@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Topbar from "./components/TopBar/TopBar";
 import Sidebar from "./components/SideBar/SideBar";
@@ -11,12 +11,21 @@ import Linegraph from './pages/LineGraph/LineGraph';
 import Table from './pages/Table/Table';
 import BarG from './pages/Bar/BarG';
 import Map from './pages/Map/Map';
+import { useDispatch } from 'react-redux';
 
+import { getPosts } from './actions/posts.js';
 
 import "./App.css"
 
 
 const App = () => {
+
+  const [currentId, setCurrentId] = useState(0);
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    dispatch(getPosts());
+  }, [currentId, dispatch]);
 
   return (
     <div className="home">

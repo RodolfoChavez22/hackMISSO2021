@@ -5,9 +5,7 @@ import "./Table.css";
 export default function TablePage() {
     return (
         <div className="home">
-            <div className="chart">
-                <Table />
-            </div>
+            <Table />
         </div>
     );
 }

@@ -1,5 +1,5 @@
 import Chart from "../../components/Chart/Chart";
-import { userData } from "../../data/Data";
+import { userData } from "../../harddata/Data";
 import React from 'react';
 
 import "./LineGraph.css";

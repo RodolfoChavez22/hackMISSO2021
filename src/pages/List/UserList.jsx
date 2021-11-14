@@ -3,7 +3,7 @@ import { DeleteOutline } from "@material-ui/icons";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 
-import { userRows } from "../../data/Data";
+import { userRows } from "../../harddata/Data";
 import "./UserList.css";
 
 export default function UserList() {

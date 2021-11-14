@@ -78,7 +78,7 @@ const columns = [
 const DataTable = () => {
     const posts = useSelector((state: any) => state.posts);
     return(
-        !posts.length ? <CircularProgress /> : (
+        /* !posts.length ? <CircularProgress /> : */ (
             <Container>
                 <MaterialTable
                     icons={tableIcons}
